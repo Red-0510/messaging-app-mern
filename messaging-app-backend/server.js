@@ -55,7 +55,7 @@ db.once("open",()=>{
 //API ENdpoints
 //Get Requests
 app.get("/",(req,res)=>{
-    res.status(200).send("Jainsh DON");
+    res.status(200).send("Server spinning");
 });
 
 app.get("/messages/sync",(req,res)=>{
